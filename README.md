@@ -1,5 +1,5 @@
-# devroadshow2017
-Mozilla's Developer Roadshow 2017
+# Mozilla Developer Roadshow 2017
+
 The Roadshow is a meetup-style, Mozilla-focused event series for people who build the Web. Hear from expert speakers highlighting the latest and best in Mozilla and Firefox technologies.
 
 Speakers will cover technologies, standards, tools and research topics for the Open Web, including:
@@ -22,3 +22,4 @@ Speakers will cover technologies, standards, tools and research topics for the O
     
    Cities will be listed and updated accordingly
    Materials from the events will also be archived
+   Read the full blog post on Hacks: mzl.la/devroadshow
