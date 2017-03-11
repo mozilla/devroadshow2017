@@ -1,0 +1,361 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>WebAssembly</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+section {
+	background-color: white;
+	color: black;
+	height: 100%;
+}
+section.dark {
+	background-color: #434343;
+	color: white;
+	text-align: left;	
+	padding-left: 75px !important;
+    font-family: 'Arvo', serif !important;
+}
+section.dark h1 {
+	font: 60px 'Arvo', serif !important;
+	background-color: #b8d545;
+	color: white !important;
+	text-align: left;
+	width: auto !important;	
+}
+
+h2 {
+    font: 40px 'Arvo', serif !important;
+    color: white;
+	background-color: #b8d545;
+    width: 100%;
+	display: block;
+	padding-left: 10px;
+	border-top: 10px none !important;
+}
+h2::before {
+	float: left;
+	display: block;
+	border-right: 5px white solid;
+	border-bottom: 5px white solid;
+	background: black;
+	width: 50px;
+	height: 50px;
+	content: "";
+}
+div#logo {
+    width: 252px;
+	height: 81px;
+	background-image: url(https://github.com/mozilla/devroadshow2017/blob/master/moz-logo-neon-green-rgb.png?raw=true);
+	background-size: 252px 81px;
+	margin-top: 300px;
+	margin-bottom: 20px;
+}
+
+</style>
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+<section class="dark">
+	<div id="logo"></div>
+	<h1>WebAssembly</h1>
+	<p>by Yury Delendik, Mozilla</p>
+</section>
+<section>
+	<h2>Overview</h2>
+	<ul>
+		<li>What's WebAssembly</li>
+		<li>WebAssembly APIs</li>
+		<li>Demos</li>
+	</ul>
+</section>
+<section>
+	<h2>What is WebAssembly?</h2>
+	<p>
+		A <em>new standard</em>
+		being developed in a 
+		W3C Community Group with Apple, Google,
+		Microsoft and Mozilla which defines:
+	</p>
+	<ol>
+		<li>
+			a compact, portable <em>binary format</em> which is
+			fast to load and runs safely at 
+			predictably near-native speed
+		</li>
+		<li>
+			a 1:1 <em>text format</em> rendered by developer tools when 
+			viewing source
+		</li>
+	</ol>
+</section>
+<section>
+	<h2>WebAssembly is ...</h2>
+	<ul>
+		<li>Compiler target for the Web</li>
+		<li>JavaScript API</li>
+	</ul>
+</section>
+<section>
+	<section>
+		<h2>Compilation of JavaScript</h2>
+		<ul>
+			<li>JS is an interpreted programming language</li>
+			<li>The hot code is watched for and compiled using JIT</li>
+			<li>JIT can take time</li>
+			<li>Parsing and loading can take time too</li>
+		<ul>
+	</section>
+	<section>
+        <h2>Memory management in JavaScript</h2>
+        <ul>
+			<li>New memory is allocated when new object or string is created</li>
+            <li>Automatically releases unused objects by tracing garbage collector</li>
+            <li>Memory tracing can take time</li>
+		</ul>	
+	</section>
+	<section>
+		<h2>asm.js is a JavaScript subset</h2>
+		<ul>
+			<li>No access to javascript heap – compiled code has to manage its own memory</li>
+            <li>Valid `"use asm";` code does not need to be “hot” – it's ready to be transformed to machine code</li>
+            <li>Runs well in all browsers</li>
+            <li>Still takes time to load, parse, validate and compile</li>
+		</ul>
+	</section>
+</section>
+<section>
+	<h2>What we trying to do?</h2>
+    <ul>
+		<li>Avoid plugins (deprecation, friction, security)</h1>
+        <li>Bring existing applications to the Web (too big to rewrite)</h1>
+        <li>Port high-performance C/C++ libraries for use by JS</h1>
+        <li>Predictable near-native performance (compared to JS)</h1>
+	</ul>
+</section>
+<section>
+	<h2>What will WebAssembly improve (in asm.js)?</h2>
+    <ol>
+		<li>Further reduce load time (especially on mobile)</li>
+        <li>Reduce over-the-wire size (with and without compression)</li>
+        <li>Reduce runtime memory consumption</li>
+        <li>New features: dynamic linking, memory resizing, etc.</li>
+        <li>Keep pushing closer to native code performance</li>
+</section>
+<section>
+	<h2>Virtual ISA</h2>
+	<p>As close to physical machine instructions as safety/portability allow</p>
+	<table>
+		<tr>
+			<th>WebAssembly</th>
+			<th></th>
+			<th>x86</th>
+			<th>ARM</th>
+		</tr>
+		<tr>
+			<td><code>i32.add</code></td>
+			<td>↦</td>
+			<td><code>addl</code></td>
+			<td><code>ADD</code></td>
+		</tr>
+			<td><code>call</code></td>
+			<td>↦</td>
+			<td><code>call</code></td>
+			<td><code>BL</code></td>
+		</tr>
+		<tr>
+			<td><code>i32.load</code></td>
+			<td>↦</td>
+			<td>check + <code>mov</code></td>
+			<td>check + <code>LDR</code></td>
+		</tr>
+	</table>
+	<p>"check" can safely eliminated on 64-bit, hoistable otherwise</p>
+</section>
+<section>
+	<section>
+		<h2>Can I see some WebAssembly?</h2>
+		<ul>
+			<li>Binary format</li>
+			<li>Text representation of binary format</li>
+		</ul>
+	</section>
+	<section>
+		<h2>Helloworld.cpp</h2>
+		<pre><code class="hljs c++">
+#include &lt;iostream&gt;
+
+int main() {
+  std::cout << "Hello, world!" << std::endl;
+  return 237;
+}
+</code></pre>
+		<p><code class="lang-bash">emcc helloworld.cpp -s WASM=1 -o helloworld.html</code></p>
+	</section>
+	<section>
+		<h2>Helloworld.wasm</h2>
+		<pre><code class="hljs text">
+00000000: 00 61 73 6d 0d 00 00 00  .asm....
+00000008: 01 ae 83 80 80 00 30 60  ......0`
+00000010: 01 7f 01 7f 60 03 7f 7f  ....`...
+00000018: 7f 01 7f 60 01 7c 01 7f  ...`.|..
+00000020: 60 02 7f 7f 01 7f 60 03  `.....`.
+...
+0005a688: 00 00 00 00 00 00 00 00  ........
+0005a690: 48 65 6c 6c 6f 2c 20 77  Hello, w
+0005a698: 6f 72 6c 64 21 00 ff ff  orld!...
+0005a6a0: ff ff ff ff ff ff ff ff  ........
+...
+</code></pre>
+	</section>
+	<section>
+		<h2>Helloworld.wast</h2>
+		<pre><code class="hljs text">
+(module
+  (type $0 (func (param i32) (result i32)))
+...
+  (func $4 (type $9) (param $var$0 i32) (param $var$1 i32)
+    (if
+      (i32.eq
+        (get_global $global$6)
+        (i32.const 0)
+      )
+      (block $label$0
+        (set_global $global$6
+          (get_local $var$0)
+...
+</code></pre>
+	</section>
+</section>
+<section>
+	<h2>JavaScript API</h2>
+    <ul>
+        <li>Compile module</li>
+        <li>Instantiate module</li>
+        <li>Export functions</li>
+        <li>Import functions</li>
+	</ul>
+</section>
+<section>
+	<section>
+		<h2>Helloworld2.wast</h2>
+		<pre><code class="hljs text">
+(module
+  (memory (export "memory") 200 200)
+  (data (i32.const 0) "Hello, world\00")
+  (import $print "sys" "print" (param i32))
+  (func (export "main")
+    (call $print
+      (i32.const 0)
+    )
+  )
+)
+</code></pre>
+       <p><code class="lang-bash">wasm-as helloworld2.wast -o helloworld2.wasm</code></p>
+	</section>
+	<section>
+		<h2>Helloworld2.js</h2>
+		<pre><code class="hljs">
+...
+fetch('helloworld2.wasm')
+  .then(req => req.arrayBuffer())
+  .then(buf => WebAssembly.instantiate(buf, env))
+  .then(({instance}) => {
+    memory = new Uint8Array(instance.exports.memory.buffer);
+    instance.exports.main();
+  });
+</code></pre>
+	</section>
+	<section>
+		<h2>Helloworld2.js</h2>
+		<pre><code class="hljs">
+var memory;
+var env = {
+  sys: {
+    print(ptr) {
+      let p = ptr;
+      while (memory[p]) p++;
+      let s = String.fromCharCode(...memory.subarray(ptr, p));
+      console.log(s);
+    }
+  }
+};
+...
+</code></pre>
+	</section>
+</section>
+<section>
+	<h2>What's next?</h2>
+    <ul>
+		<li>Debugging</li>
+        <li>LLVM compilation to object modules</li>
+        <li>CG pointers, multithreading</li>
+    </ul>
+</section>
+<section>
+	<h2>Start experimenting now</h2>
+	<ul>
+		<li>emscripten</li>
+		<li>binaryen</li>
+		<li>llvm/clang w/WebAssembly target</li>
+	</ul>
+</section>
+
+<section>
+	<h2>More good stuff</h2>
+	<ul>
+		<li>Demo at <br><a href="http://webassembly.org/demo/">http://webassembly.org/demo/</a></li>
+		<li>WasmExplorer at <br><a href="http://mbebenita.github.io/WasmExplorer/">http://mbebenita.github.io/WasmExplorer/</a></li>
+        <li>Get emscripten</li>
+        <li>Get SpiderMonkey (<code>wasmTextToBinary</code>)</li>
+		<li>Get latest Node.js (<code>node --expose-wasm</code>)</li>
+    </ul>
+</section>
+
+<section>
+	<h2>Q &amp; A</h2>
+</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
