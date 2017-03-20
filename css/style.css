@@ -5,14 +5,7 @@
 .oblique{font-style: oblique;}
 
 body {font-family: 'Fira Sans', sans-serif; margin: 0 auto; line-height: 2em; padding: 12px; box-sizing: border-box; color: #333; overflow: auto;
-background: #9ff400; /* Old browsers */
-background: -moz-linear-gradient(-10deg,  #9ff400 0%, #9ff400 50%, #d8ff8e 50%, #d8ff8e 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ffded1), color-stop(50%,#9ff400), color-stop(50%,#bdff41), color-stop(100%,#d8ff8e)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg,  #9ff400 0%,#9ff400 50%,#bdff41 50%,#bdff41 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg,  #9ff400 0%,#9ff400 50%,#bdff41 50%,#bdff41 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg,  #9ff400 0%,#9ff400 50%,#bdff41 50%,#bdff41 100%); /* IE10+ */
-background: linear-gradient(107deg,  #9ff400 0%,#9ff400 50%,#bdff41 50%,#bdff41 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfff75', endColorstr='#d8ff8e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+background: #bdff41; /* Old browsers */
 }
 
 body, html {
@@ -98,50 +91,37 @@ hr {
 .inline-list li {
   display: inline-block;
 }
-ul
-@media only screen and (max-width: 758px) {
-    /* For desktop: */
-    .name {width: 80%; float: center; margin: 0 auto;}
-    /* For mobile phones: */
-    [class*="btn"] {
-        margin-bottom: 10px; top: 70px;
-        width: 60%;
-        float: center;
-        font-size: 80%;
-        padding: 10px;
-    }
-    [article::before] {
-        display: none;
-    }
+
+footer ul li { display: block; width: 100%; border-bottom: 1px solid #b1d1ff; }
+footer ul li a { 
+  display: block;
+  width: 100%;
+  color: #0068FF;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+footer ul li a:hover {
+  color: #8d99a6;
+  background: #9ff400;  
 }
 
-@media only screen and (max-width: 500px) {
-    /* For desktop: */
-    .name {width: 80%; float: center; margin: 0 auto;}
-    /* For mobile phones: */
-    [class*="btn"] {
-        margin-bottom: 10px; top: 70px;
-        width: 60%;
-        float: center;
-        font-size: 80%;
-        padding: 10px;
-    }
-    [article::before] {
-        display: none;
-    }
-}
+#footerlink { display: none; }
 
-footer .inline-list li {
-  margin-right: 40px;
-}
-footer a {
-  border: none; color: #0068FF;
-}
-footer {
-  margin: 0 auto; 
-  padding: 40px 0 0 0; 
-  position: absolute; 
-  bottom: 55%; 
-  right: -255px; 
-  width: 600px; transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);
+
+@media screen and (max-width: 550px) {
+  
+  footer { 
+    display: block; 
+    padding: 15px 25px; 
+    color: #0068FF; 
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  #footerlink:hover { background: #8d99a6; }
+  footer { display: block; }
 }
