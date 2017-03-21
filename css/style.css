@@ -92,7 +92,7 @@ hr {
   display: inline-block;
 }
 
-footer ul li { display: block; width: 100%; border-bottom: 1px solid #b1d1ff; }
+footer ul li { display: block; width: 100%;}
 footer ul li a { 
   display: block;
   width: 100%;
@@ -104,11 +104,8 @@ footer ul li a {
   font-size: 1.4em;
 }
 footer ul li a:hover {
-  color: #8d99a6;
-  background: #9ff400;  
+  background: #9ff400; 
 }
-
-#footerlink { display: none; }
 
 
 @media screen and (max-width: 550px) {
@@ -120,8 +117,8 @@ footer ul li a:hover {
     text-align: center;
     font-size: 1.4em;
     font-weight: bold;
+    line-height: : 30px;
     text-decoration: none;
   }
-  #footerlink:hover { background: #8d99a6; }
   footer { display: block; }
 }
