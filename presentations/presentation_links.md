@@ -2,4 +2,4 @@
 
 * [WebAssembly presentation](https://people-mozilla.org/~ydelendik/presentations/roadshow2017/slides/) by [@yurydelendik](https://github.com/yurydelendik)
 * [Privacy/Security Intro presentation](https://mzl.la/roadshow-nyc) by [@auremoser](https://github.com/auremoser)
-* [CSS Grid & Layout Presentation](https://speakerdeck.com/jensimmons) by [@jensimmons]
+* [CSS Grid & Layout Presentation](https://speakerdeck.com/jensimmons) by [@jensimmons](https://twitter.com/jensimmons)
