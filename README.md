@@ -24,19 +24,19 @@ Speakers will cover technologies, standards, tools and research topics for the O
 
 This schedule will be continually updated with links as registration opens. Check back if your city is not yet listed or open for registration. We won’t be able to fit every city this year! But we will keep a tally of cities to plan for in future Roadshows.
 
-    Apr 06, 2017   Atlanta, GA @ General Assembly
-    Apr 19, 2017   Columbus, OH @ CBusJS
-    Apr 20, 2017   Chicago, IL @ General Assembly
-    Apr 25, 2017   London, UK @ Twitter
-    Apr 29, 2017   Berlin, Germany @ A-MAZE
-    May 02, 2017   Hamburg, Germany @ SinnerSchrader
-    May 04, 2017   Berlin, Germany @ Zalando
-    May 14, 2017   Dusseldorf, Germany @ beyond tellerand
-    May 23, 2017   Toronto, Canada @ Mozilla
-    May 23, 2017   Warsaw, Poland @ Front Trends
-    Jun 06, 2017   Boston, MA @ General Assembly
-    Jul  25, 2017  Salt Lake City, UT @ Lucid
-    Oct  24, 2017  Mexico City, Mexico @ Near Soft
+   Apr 19, 2017   Columbus, OH @ CBusJS
+   Apr 20, 2017   Chicago, IL @ General Assembly
+   Apr 25, 2017   London, UK @ Twitter
+   Apr 29, 2017   Berlin, Germany @ A-MAZE
+   May 02, 2017   Hamburg, Germany @ SinnerSchrader
+   May 04, 2017   Berlin, Germany @ Zalando
+   May 14, 2017   Dusseldorf, Germany @ beyond tellerand
+   May 23, 2017   Toronto, Canada @ Mozilla
+   May 23, 2017   Warsaw, Poland @ Front Trends
+   Jun 06, 2017   Boston, MA @ General Assembly
+   Jun 20, 2017   Washington DC @ General Assembly
+   Jul  25, 2017   Salt Lake City, UT @ Lucid
+   Oct  24, 2017   Mexico City, Mexico @ Near Soft
 
    Cities will be listed and updated accordingly
    Materials from the events will also be archived
@@ -61,3 +61,4 @@ Find archived materials here
     Mar 25, 2017   New York City @ General Assembly
     Mar 27, 2017   Austin, TX @ Galvanize
     Mar 28, 2017   Austin, TX @ IBM
+    Apr 06, 2017   Atlanta, GA @ General Assembly
