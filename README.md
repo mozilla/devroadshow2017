@@ -27,7 +27,7 @@ This schedule will be continually updated with links as registration opens. Chec
 - **Aug 24, 2017**   Porto Alegre, Brazil @ [BrazilJS](https://eventloop.com.br/braziljs-conf-2017-poa)
 - **Sept 19, 2017**  Singapore @ [PayPal](https://www.facebook.com/events/144127329504155/)
 - **Sept 21, 2017**  Ho Chi Min City, Vietnam @ [Dreamplex](https://www.facebook.com/events/1252723171504448/)
-- **Sept 22, 2017**  Taipei @ Mozilla Taiwan Developer Conference
+- **Sept 22, 2017**  Taipei @ [Mozilla Taiwan Developer Conferene](https://www.mozilladevtw2017.com)
 - **Sept 23, 2017**  KL, Malaysia @ [MaGIC](https://www.facebook.com/events/865678483587305)
 - **Sept 25, 2017**  Penang, Malysia @ [CAT](https://www.facebook.com/events/389794274769975)
 - **Sept 27, 2017**  Hong Kong @ [Credit Suisse](https://www.facebook.com/events/1524909654238192)
