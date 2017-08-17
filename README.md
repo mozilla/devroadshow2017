@@ -33,8 +33,8 @@ This schedule will be continually updated with links as registration opens. Chec
 - **Sept 27, 2017**  Hong Kong @ [Credit Suisse](https://www.facebook.com/events/1524909654238192)
 - **Sep 27, 2017**   St. Louis, MO @ StrangeLoop
 - **Oct 24, 2017**   Budapest, Hungary @ JSConf Budapest
-- **Nov 06, 2017**   Berlin, Germany @ beyond tellerrand berlin
-- **Nov 11, 2017**   Orlando, FL @ DevFest Florida
+- **Nov 06, 2017**   Berlin, Germany @ [beyond tellerrand berlin](https://beyondtellerrand.com/events/berlin-2017/side-events)
+- **Nov 11, 2017**   Orlando, FL @ [DevFest Florida](https://devfestflorida.org/)
 - **Nov 16, 2017**   Tulsa, OK @ [Tech on Tap](https://www.meetup.com/RHTTech-on-Tap/events/242288624/)
 - **Dec 05, 2017**   Monterrey, Mexico @ Softtek
 - **Dec 07, 2017**   Guadalajara, Mexico @Hacker Garage
