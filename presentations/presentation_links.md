@@ -6,3 +6,4 @@
 * [Privacy/Security Intro presentation](https://mzl.la/roadshow-nyc) by [@auremoser](https://github.com/auremoser)
 * [WebAssembly materials](https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/) by [@linclark](https://twitter.com/linclark)
 * [CSS Grid & Layout Presentation](https://speakerdeck.com/jensimmons) by [@jensimmons](https://twitter.com/jensimmons)
+* [Mozilla DevRoadshow Toronto Edition](https://vreplay.mozilla.com/replay/showRecordingExternal.html?key=PZUyHwMFltOohP5) 
