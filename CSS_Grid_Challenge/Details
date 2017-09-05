@@ -1,4 +1,4 @@
-CSS Grid Challenge: SUBMISSIONS DUE SEPT 30th 2017!
+##CSS Grid Challenge: SUBMISSIONS DUE SEPT 30th 2017!
 By Vitaly Friedman
 
 Layout on the web has always been tricky, but with CSS Grid being now
@@ -11,7 +11,7 @@ To explore the possibilities and features of Grid together, we’d love to invit
 contest. Because there’s nothing better to completely grasp a new technology as getting
 your hands dirty and playing with it, right?
 
-THE CHALLENGE
+##THE CHALLENGE
 Now, here’s the challenge: You create an original, accessible layout with CSS Grid, or use
 CSS Grid to rebuild an existing layout. What you design is entirely up to you. The only
 requirement is that the template works fine in IE9 but is still accessible in IE8.
@@ -22,17 +22,17 @@ developers and helps spread the Grid revolution.
 All the submitted pages or templates will be available for free and under the MIT license, so
 that you can use the templates for commercial projects, as well.
 
-SO, WHAT CAN YOU WIN?
+##SO, WHAT CAN YOU WIN?
 After the deadline has ended, we’ll announce the lucky winners who’ll win a quite
 extraordinary smashing prize (and a couple of other Smashing extras, see below):
-*a round-trip flight to Barcelona, Spain,
-*full accommodation in a fancy hotel,
-*a ticket to the Smashing Conference Barcelona 20172,
-*a Smashing workshop of your choice,
-*a signed edition of our upcoming book Design Systems3 by Alla Kholmatova,
-*your very own Smashing caricature, designed just for you.
+- **a round-trip flight to Barcelona, Spain,
+- **full accommodation in a fancy hotel,
+- **a ticket to the Smashing Conference Barcelona 20172,
+- **a Smashing workshop of your choice,
+- **a signed edition of our upcoming book Design Systems3 by Alla Kholmatova,
+- **your very own Smashing caricature, designed just for you.
 
-Join In!
+##Join In!
 Want to be a part of it? Great, we’d love to see what you’ll come up with! So once you’ve
 completed your shiny CSS Grid layout, please send us a link to
 cssgrid@smashingmagazine.com it (CodePen works just fine) until *September 30*. You can
