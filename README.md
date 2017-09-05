@@ -24,7 +24,6 @@ Speakers will cover technologies, standards, tools and research topics for the O
 
 This schedule will be continually updated with links as registration opens. Check back if your city is not yet listed or open for registration. We won’t be able to fit every city this year! But we will keep a tally of cities to plan for in future Roadshows.
 
-- **Aug 24, 2017**   Porto Alegre, Brazil @ [BrazilJS](https://eventloop.com.br/braziljs-conf-2017-poa)
 - **Sept 19, 2017**  Singapore @ [PayPal](https://www.facebook.com/events/144127329504155/)
 - **Sept 21, 2017**  Ho Chi Min City, Vietnam @ [Dreamplex](https://www.facebook.com/events/1252723171504448/)
 - **Sept 22, 2017**  Taipei @ [Mozilla Taiwan Developer Conferene](https://www.mozilladevtw2017.com)
@@ -85,3 +84,4 @@ Find archived materials here
 - Jul 27, 2017   Denver, CO @ Galvanize
 - Jul 31, 2017   Los Angeles, CA @ 8th Light
 - Aug 10, 2017   Seattle, WA @ Galvanize
+- Aug 24, 2017   Porto Alegre, Brazil @ [BrazilJS](https://eventloop.com.br/braziljs-conf-2017-poa)
