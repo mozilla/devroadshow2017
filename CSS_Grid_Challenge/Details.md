@@ -55,3 +55,5 @@ Grid
 - Building Production-Ready CSS Grid Layouts Today by Morten Rand-Hendriksen
 - Progressively Enhancing CSS Layout by Morten Rand-Hendriksen
 - Getting Started With CSS Grid by Chris Brandrick
+
+## Full article on Smashing Magazine @ [CSSGrid Challenge](https://www.smashingmagazine.com/2017/09/the-css-grid-challenge-join-in/)
