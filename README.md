@@ -30,7 +30,9 @@ This schedule will be continually updated with links as registration opens. Chec
 - **Sept 23, 2017**  KL, Malaysia @ [MaGIC](https://www.facebook.com/events/865678483587305)
 - **Sept 25, 2017**  Penang, Malysia @ [CAT](https://www.facebook.com/events/389794274769975)
 - **Sept 27, 2017**  Hong Kong @ [Credit Suisse](https://www.facebook.com/events/1524909654238192)
-- **Sep 27, 2017**   St. Louis, MO @ StrangeLoop
+- **Sep 27, 2017**   St. Louis, MO @ [StrangeLoop](https://www.eventbrite.com/e/mozilla-developer-roadshow-presents-what-makes-the-web-work-tickets-37377977537)
+- **Oct 04, 2017**   Springfield, MO @ [SGF Web Devs](https://www.meetup.com/SGF-Web-Devs/events/243148230/)
+- **Oct 13, 2017**  San Francisco, CA @ [Mozilla](https://www.eventbrite.com/e/mozilla-developer-roadshow-presents-women-in-webvr-san-francisco-tickets-37432501620)
 - **Oct 24, 2017**   Budapest, Hungary @ JSConf Budapest
 - **Nov 06, 2017**   Berlin, Germany @ [beyond tellerrand berlin](https://beyondtellerrand.com/events/berlin-2017/side-events/mozilla-roadshow)
 - **Nov 11, 2017**   Orlando, FL @ [DevFest Florida](https://devfestflorida.org/)
