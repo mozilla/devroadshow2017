@@ -33,19 +33,17 @@ This schedule will be continually updated with links as registration opens. Chec
 - **Sep 27, 2017**   St. Louis, MO @ [StrangeLoop](https://www.eventbrite.com/e/mozilla-developer-roadshow-presents-what-makes-the-web-work-tickets-37377977537)
 - **Oct 04, 2017**   Springfield, MO @ [SGF Web Devs](https://www.meetup.com/SGF-Web-Devs/events/243148230/)
 - **Oct 13, 2017**  San Francisco, CA @ [Mozilla](https://www.eventbrite.com/e/mozilla-developer-roadshow-presents-women-in-webvr-san-francisco-tickets-37432501620)
-- **Oct 14,2017** Vancouver, BC @ [DevFest Vancouver](https://devfestvancouver.firebaseapp.com/)
+- **Oct 14, 2017** Vancouver, BC @ [DevFest Vancouver](https://devfestvancouver.firebaseapp.com/)
 - **Oct 24, 2017**   Budapest, Hungary @ JSConf Budapest
 - **Nov 06, 2017**   Berlin, Germany @ [beyond tellerrand berlin](https://beyondtellerrand.com/events/berlin-2017/side-events/mozilla-roadshow)
 - **Nov 11, 2017**   Orlando, FL @ [DevFest Florida](https://devfestflorida.org/)
 - **Nov15, 2017**    Hamburg, Germany @ [SinnerSchrader](https://www.meetup.com/MuniCSS-finest/events/243276897/)
 - **Nov 16, 2017**   Tulsa, OK @ [Tech on Tap](https://www.meetup.com/RHTTech-on-Tap/events/242288624/)
 - **Dec 05, 2017**   Monterrey, Mexico @ Softtek
-- **Dec 07, 2017**   Guadalajara, Mexico @Hacker Garage
+- **Dec 07, 2017**   Guadalajara, Mexico @ Hacker Garage
 - **Dec  09, 2017**  Mexico City, Mexico @ Near Soft
 
-Cities will be listed and updated accordingly
-Materials from the events will also be archived
-Read the full blog post on Hacks: mzl.la/devroadshow
+Cities will be listed and updated accordingly. Materials from the events will also be archived. Read the full blog post on [Hacks](https://mzl.la/devroadshow).
 
 
 ## Past Events
