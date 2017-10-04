@@ -30,7 +30,7 @@ This schedule will be continually updated with links as registration opens. Chec
 - **Oct 24, 2017**   Budapest, Hungary @ JSConf Budapest
 - **Nov 06, 2017**   Berlin, Germany @ [beyond tellerrand berlin](https://beyondtellerrand.com/events/berlin-2017/side-events/mozilla-roadshow)
 - **Nov 11, 2017**   Orlando, FL @ [DevFest Florida](https://devfestflorida.org/)
-- **Nov15, 2017**    Munich, Germany @ [SinnerSchrader](https://www.meetup.com/MuniCSS-finest/events/243276897/)
+- **Nov 15, 2017**    Munich, Germany @ [SinnerSchrader](https://www.meetup.com/MuniCSS-finest/events/243276897/)
 - **Nov 16, 2017**   Tulsa, OK @ [Tech on Tap](https://www.meetup.com/RHTTech-on-Tap/events/242288624/)
 - **Nov 17, 2017**  Hamburg, Germany @ [DeCode MeetUp](https://www.meetup.com/de-DE/decode-hh/events/243303281/)
 - **Dec 05, 2017**   Monterrey, Mexico @ Softtek
