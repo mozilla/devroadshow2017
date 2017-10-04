@@ -1,0 +1,77 @@
+* Open Infrastructure
+** slides: https://docs.google.com/presentation/d/1pbGWaDGL_hWnADV4Qbrx3wV-_HBo9VZYEHpTaJh7l7E/
+** Me
+** Open Infrastructure at Mozilla
+*** My Mozilla story
+*** Lessons learned along the way
+*** Open Infrastructure
+** My Mozilla Story
+I've been a fan of Mozilla ever since I installed the "Mozilla Suite" that had been recently open sourced from Netscape on my linux laptop in '98,
+but it never occurred to me that I could work for them until...
+*** I tried to hire Luke
+I tried to recruit my friend Luke Crouch to come work with me at a company I had just joined. He told he had just interviewed for a position at Mozilla,
+and they wanted some help porting MDN from PHP to Python. Years later, when I had accomplished what I set out to at that company and...
+*** I was looking for a job
+Mozilla was my top choice of where to go next, but along the way
+*** I interviewed at Google
+for a position as a Site Reliability Engineer. I really liked the SRE approach to operations as a software engineering problem, but in the course of the interviewing
+process there were several times when I asked the engineer a question about something I had read about in a whitepaper and they were surprised that it was public
+knowledge. I realized during that process that while there were a lot of things that I would only be able to learn working at google,
+but a lot of that knowledge would only be useful *within google*.
+*** I interviewed at Mozilla
+In contrast, when I interviewed at Mozilla there weren't any surprises about anything being public. They were in the process of porting www.mozilla.org
+from PHP to Python, and I was able to go read exactly how good (and how bad) the code was before
+*** I got a Job at Mozilla
+as a "Senior Web Developer", and
+*** I wrote some code
+I was able to "hit the ground running" with bedrock, the Python backend for www.mozilla.org, but there were a lot of other pieces of the site that were opaque at first.
+*** I deployed some code
+When I started we were using a deployment system called "chief" that was written and maintained by our IT dept, and it had a few issues. Not only was the code not on
+github, it wasn't even under version control, there was no documentation on how it worked, and I couldn't access the source. Much of the behavior of the site was
+implemented in apache config files that I also didn't have access to, and the "dev" and "staging" environments had some unfortunate (and unknown) differences from 
+production. So,
+*** I filed some bugs
+There was some initial reluctance to giving developers root access to production systems, but eventually we got the access we needed and it proved critical to our
+success.
+*** I wrote some more code
+- working on new sites and services
+*** I deployed some more code
+- proprietary PaaS
+*** I filed some more bugs
+- Deployment problems
+- failure to deploy
+- failure to rollback
+- significant downtime
+*** Can't fix problems with proprietary problems
+*** We needed to move out of a datacenter
+*** I did not write some code
+*** I read some code
+- Docker
+- Mesos
+- Fleet
+- Deis
+- did more than read, actually spun up clusters and experimented
+*** Docker + CoreOS + Deis
+- 12 Factor
+- Fleet, etcd
+- Simple, low overhead
+- Python + Django
+- Runs on multiple clouds & bare metal
+- now running multiple sites in multiple regions, including www &
+careers.mozilla.org
+*** I wrote some more code
+This time, it was bug fixes for an active, open source project
+*** So did a bunch of other people
+Deis started off on Mesos + Marathon, then switched to CoreOS + Fleet, then evaluated Mesos, Swarm, and Kubernetes
+*** use open platforms
+*** Kubernetes
+- Open distributed systems platform that runs on multiple clouds & bare metal
+- Multiple large vendors
+- Open governance through CNCF
+- Let's encrypt integrations
+- Contrast current openness with interview experience
+- SRE
+*** Open Infrastructure
+- Non-zero sum game
+- when working well, infrastructure is invisible
+*** moz://a

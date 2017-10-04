@@ -7,3 +7,4 @@
 * [WebAssembly materials](https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/) by [@linclark](https://twitter.com/linclark)
 * [CSS Grid & Layout Presentation](https://speakerdeck.com/jensimmons) by [@jensimmons](https://twitter.com/jensimmons)
 * [Mozilla DevRoadshow Toronto Edition](https://vreplay.mozilla.com/replay/showRecordingExternal.html?key=PZUyHwMFltOohP5) 
+* [Josh Mize: Open Infrastructure](https://docs.google.com/presentation/d/1pbGWaDGL_hWnADV4Qbrx3wV-_HBo9VZYEHpTaJh7l7E/)
