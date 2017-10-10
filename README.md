@@ -34,9 +34,6 @@ This schedule will be continually updated with links as registration opens. Chec
 - **Nov 15, 2017**    Munich, Germany @ [SinnerSchrader](https://www.meetup.com/MuniCSS-finest/events/243276897/)
 - **Nov 16, 2017**   Tulsa, OK @ [Tech on Tap](https://www.meetup.com/RHTTech-on-Tap/events/242288624/)
 - **Nov 17, 2017**  Hamburg, Germany @ [DeCode MeetUp](https://www.meetup.com/de-DE/decode-hh/events/243303281/)
-- **Dec 05, 2017**   Monterrey, Mexico @ Softtek
-- **Dec 07, 2017**   Guadalajara, Mexico @Hacker Garage
-- **Dec  09, 2017**  Mexico City, Mexico @ Near Soft
 
 Cities will be listed and updated accordingly
 Materials from the events will also be archived
