@@ -27,7 +27,7 @@ This schedule will be continually updated with links as registration opens. Chec
 - **Oct 04, 2017**   Springfield, MO @ [SGF Web Devs](https://www.meetup.com/SGF-Web-Devs/events/243148230/)
 - **Oct 13, 2017**  San Francisco, CA @ [Mozilla](https://www.eventbrite.com/e/mozilla-developer-roadshow-presents-women-in-webvr-san-francisco-tickets-37432501620)
 - **Oct 14,2017** Vancouver, BC @ [DevFest Vancouver](https://devfestvancouver.firebaseapp.com/)
-- **Oct 24, 2017**   Budapest, Hungary @ JSConf Budapest
+- **Oct 24, 2017**   Budapest, Hungary @ [JSConf Budapest](https://www.meetup.com/Rust-Hungary-Meetup/events/244086300/)
 - **Nov 06, 2017**   Berlin, Germany @ [beyond tellerrand berlin](https://beyondtellerrand.com/events/berlin-2017/side-events/mozilla-roadshow)
 - **Nov 11, 2017**   Orlando, FL @ [DevFest Florida](https://devfestflorida.org/)
 - **Nov 14, 2017** Amsterdam, NL @ [NLHTML5 MeetUp](https://www.meetup.com/NLHTML5/events/243514933/)
