@@ -24,9 +24,6 @@ Speakers will cover technologies, standards, tools and research topics for the O
 
 This schedule will be continually updated with links as registration opens. Check back if your city is not yet listed or open for registration. We won’t be able to fit every city this year! But we will keep a tally of cities to plan for in future Roadshows.
 
-- **Oct 04, 2017**   Springfield, MO @ [SGF Web Devs](https://www.meetup.com/SGF-Web-Devs/events/243148230/)
-- **Oct 13, 2017**  San Francisco, CA @ [Mozilla](https://www.eventbrite.com/e/mozilla-developer-roadshow-presents-women-in-webvr-san-francisco-tickets-37432501620)
-- **Oct 14,2017** Vancouver, BC @ [DevFest Vancouver](https://devfestvancouver.firebaseapp.com/)
 - **Oct 24, 2017**   Budapest, Hungary @ [JSConf Budapest](https://www.meetup.com/Rust-Hungary-Meetup/events/244086300/)
 - **Nov 06, 2017**   Berlin, Germany @ [beyond tellerrand berlin](https://beyondtellerrand.com/events/berlin-2017/side-events/mozilla-roadshow)
 - **Nov 11, 2017**   Orlando, FL @ [DevFest Florida](https://devfestflorida.org/)
@@ -88,3 +85,6 @@ Find archived materials here
 - Sept 25, 2017 Penang, Malysia @ [CAT](https://www.facebook.com/events/389794274769975)
 - Sept 27, 2017 Hong Kong @ [Credit Suisse](https://www.facebook.com/events/1524909654238192)
 - Sep 27, 2017  St. Louis, MO @ [StrangeLoop](https://www.eventbrite.com/e/mozilla-developer-roadshow-presents-what-makes-the-web-work-tickets-37377977537)
+- Oct 04, 2017 Springfield, MO @ [SGF Web Devs](https://www.meetup.com/SGF-Web-Devs/events/243148230/)
+- Oct 13, 2017 San Francisco, CA @ [Mozilla](https://www.eventbrite.com/e/mozilla-developer-roadshow-presents-women-in-webvr-san-francisco-tickets-37432501620)
+- Oct 14,2017 Vancouver, BC @ [DevFest Vancouver](https://devfestvancouver.firebaseapp.com/)
