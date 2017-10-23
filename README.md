@@ -26,6 +26,7 @@ This schedule will be continually updated with links as registration opens. Chec
 
 - **Oct 24, 2017**   Budapest, Hungary @ [JSConf Budapest](https://www.meetup.com/Rust-Hungary-Meetup/events/244086300/)
 - **Nov 06, 2017**   Berlin, Germany @ [beyond tellerrand berlin](https://beyondtellerrand.com/events/berlin-2017/side-events/mozilla-roadshow)
+- **Nov 09, 2017** Lisbon, Portugal @ [Mozilla Developer Roadshow @ ISCTE-IUL](https://www.eventbrite.com/e/mozilla-developer-roadshow-iscte-iul-tickets-39190744572)
 - **Nov 11, 2017**   Orlando, FL @ [DevFest Florida](https://devfestflorida.org/)
 - **Nov 14, 2017** Amsterdam, NL @ [NLHTML5 MeetUp](https://www.meetup.com/NLHTML5/events/243514933/)
 - **Nov 15, 2017**    Munich, Germany @ [SinnerSchrader](https://www.meetup.com/MuniCSS-finest/events/243276897/)
