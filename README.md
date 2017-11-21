@@ -20,21 +20,11 @@ Speakers will cover technologies, standards, tools and research topics for the O
     Rust
     Servo
     
-## Upcoming cities for 2017
+## It's a wrap! Thank you.
 
-This schedule will be continually updated with links as registration opens. Check back if your city is not yet listed or open for registration. We won’t be able to fit every city this year! But we will keep a tally of cities to plan for in future Roadshows.
+Our 2017 Developer Roadshow has now wrapped! We weren't be able to fit every city this year, but we hope to see more of our community in 2018. Stay tuned.
 
-- **Oct 24, 2017**   Budapest, Hungary @ [JSConf Budapest](https://www.meetup.com/Rust-Hungary-Meetup/events/244086300/)
-- **Nov 06, 2017**   Berlin, Germany @ [beyond tellerrand berlin](https://beyondtellerrand.com/events/berlin-2017/side-events/mozilla-roadshow)
-- **Nov 09, 2017** Lisbon, Portugal @ [Mozilla Developer Roadshow @ ISCTE-IUL](https://www.eventbrite.com/e/mozilla-developer-roadshow-iscte-iul-tickets-39190744572)
-- **Nov 11, 2017**   Orlando, FL @ [DevFest Florida](https://devfestflorida.org/)
-- **Nov 14, 2017** Amsterdam, NL @ [NLHTML5 MeetUp](https://www.meetup.com/NLHTML5/events/243514933/)
-- **Nov 15, 2017**    Munich, Germany @ [SinnerSchrader](https://www.meetup.com/MuniCSS-finest/events/243276897/)
-- **Nov 16, 2017**   Tulsa, OK @ [Tech on Tap](https://www.meetup.com/RHTTech-on-Tap/events/242288624/)
-- **Nov 17, 2017**  Hamburg, Germany @ [DeCode MeetUp](https://www.meetup.com/de-DE/decode-hh/events/243303281/)
-
-Cities will be listed and updated accordingly
-Materials from the events will also be archived
+Materials from the events are archived in Presentations.
 Read the full blog post on Hacks: mzl.la/devroadshow
 
 
@@ -89,3 +79,11 @@ Find archived materials here
 - Oct 04, 2017 Springfield, MO @ [SGF Web Devs](https://www.meetup.com/SGF-Web-Devs/events/243148230/)
 - Oct 13, 2017 San Francisco, CA @ [Mozilla](https://www.eventbrite.com/e/mozilla-developer-roadshow-presents-women-in-webvr-san-francisco-tickets-37432501620)
 - Oct 14,2017 Vancouver, BC @ [DevFest Vancouver](https://devfestvancouver.firebaseapp.com/)
+- Oct 24, 2017 Budapest, Hungary @ [JSConf Budapest](https://www.meetup.com/Rust-Hungary-Meetup/events/244086300/)
+- Nov 06, 2017  Berlin, Germany @ [beyond tellerrand berlin](https://beyondtellerrand.com/events/berlin-2017/side-events/mozilla-roadshow)
+- Nov 09, 2017 Lisbon, Portugal @ [Mozilla Developer Roadshow @ ISCTE-IUL](https://www.eventbrite.com/e/mozilla-developer-roadshow-iscte-iul-tickets-39190744572)
+- Nov 11, 2017 Orlando, FL @ [DevFest Florida](https://devfestflorida.org/)
+- Nov 14, 2017 Amsterdam, NL @ [NLHTML5 MeetUp](https://www.meetup.com/NLHTML5/events/243514933/)
+- Nov 15, 2017 Munich, Germany @ [SinnerSchrader](https://www.meetup.com/MuniCSS-finest/events/243276897/)
+- Nov 16, 2017 Tulsa, OK @ [Tech on Tap](https://www.meetup.com/RHTTech-on-Tap/events/242288624/)
+- Nov 17, 2017 Hamburg, Germany @ [DeCode MeetUp](https://www.meetup.com/de-DE/decode-hh/events/243303281/)
